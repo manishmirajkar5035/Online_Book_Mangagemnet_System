@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+	th:replace="~{base::layout(~{::section})}">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<section>
+		<div class="container-fluid bg-primary p-5 mt-5 ">
+			<div class="row">
+				<div class="col-md-8 offset-md-2">
+					<form>
+						<div class="input-group">
+							<input type="text" class="form-control" name="ch">
+							<button class="btn btn-light text-dark ms-3 col-md-2">
+								<i class="fa-solid fa-magnifying-glass"></i> Search
+							</button>
+						</div>
+					</form>
+				</div>
+			</div>
+
+		</div>
+
+
+		<div class="container-fluid mt-1">
+			<div class="row">
+
+				<div class="col-md-2 p-0">
+
+					<div class="card shadow-sm p-0 mb-5 bg-body-tertiary rounded">
+						<div class="card-body">
+							<div class="list-group">
+								<a href="#"
+									class="list-group-item list-group-item-action active"
+									aria-current="true"> Categories </a> <a href="#"
+									class="list-group-item list-group-item-action">History</a>
+								<a href="#" class="list-group-item list-group-item-action">Edu&reference</a> <a href="#"
+									class="list-group-item list-group-item-action">Entertinment</a>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-10">
+					<div class="card shadow-sm p-3 mb-5 bg-body-tertiary rounded">
+						<div class="card-body">
+							<p class="fs-3 text-center">Products</p>
+							<div class="row">
+								<div class="col-md-3">
+									<div class="card">
+										<div class="card-body ">
+											<img alt="" src="/img/product_img/shivajim.jpg" width="90%"
+												height="170px">
+											<p class="fs-5 text-center">Shivaji: The Great Maratha Paperback</p>
+											<div class="row text-center">
+												<p class="fs-6 fw-bold">
+													&#8377; 595 <span class="fs-6 text-success">26% off
+													</span>
+												</p>
+												<a href="/product" class="btn btn-primary col-md-6 offset-md-3">View
+													Details</a>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- TODO : Remove after backend implement  -->
+								<div class="col-md-3">
+									<div class="card">
+										<div class="card-body ">
+											<img alt="" src="/img/product_img/Harrypotterbook.jpg" width="90%"
+												height="170px">
+											<p class="fs-5 text-center">Harry Potter and the Prisoner of Azkaban</p>
+											<div class="row text-center">
+												<p class="fs-6 fw-bold">
+													&#8377; 389 <span class="fs-6 text-success">15% off
+													</span>
+												</p>
+												<a class="btn btn-primary col-md-6 offset-md-3">View
+													Details</a>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-3">
+									<div class="card">
+										<div class="card-body ">
+											<img alt="" src="/img/product_img/apjkalam.jpg" width="90%"
+												height="170px">
+											<p class="fs-5 text-center">Wings Of Fire An Autobiography </p>
+											<div class="row text-center">
+												<p class="fs-6 fw-bold">
+													&#8377; 214 <span class="fs-6 text-success">25% off
+													</span>
+												</p>
+												<a class="btn btn-primary col-md-6 offset-md-3">View
+													Details</a>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-3">
+									<div class="card">
+										<div class="card-body ">
+											<img alt="" src="/img/product_img/dsabook.jpg" width="90%"
+												height="170px">
+											<p class="fs-5 text-center">Data Structures And Algorithms Made Easy</p>
+											<div class="row text-center">
+												<p class="fs-6 fw-bold">
+													&#8377; 604 <span class="fs-6 text-success">30% off
+													</span>
+												</p>
+												<a class="btn btn-primary col-md-6 offset-md-3">View
+													Details</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- End  -->
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+	</section>
+</body>
+</html>
